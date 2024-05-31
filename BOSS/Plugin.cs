@@ -38,14 +38,14 @@ namespace ExampleMod
                     // Card display name.
                     "SUM",
                     // Attack.
-                    1,
+                    2,
                     // Health.
-                    200,
+                    40,
                     // Descryption.
                     description: "Megaladon Bites Hard especially on Squirrels"
                 )
                 .SetCost(0, 0, 0, null)
-                .AddAbilities(Ability.AllStrike, Ability.SquirrelOrbit, Ability.RandomAbility, Ability.Reach)
+                .AddAbilities(Ability.AllStrike, Ability.SquirrelOrbit, Ability.MadeOfStone, Ability.Reach)
                 .AddTraits(Trait.Giant)
                 .AddSpecialAbilities(SpecialTriggeredAbility.GiantCard)
                 .AddAppearances(CardAppearanceBehaviour.Appearance.GiantAnimatedPortrait)
