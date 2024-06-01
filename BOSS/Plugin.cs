@@ -34,9 +34,9 @@ namespace ExampleMod
                     modPrefix: "BossCardsLoader",
 
                     // Card internal name.
-                    "!GIANTCARD_SUM",
+                    "!GIANTCARD_MOON",
                     // Card display name.
-                    "SUM",
+                    "Сумеречная",
                     // Attack.
                     2,
                     // Health.
